@@ -2,7 +2,7 @@ const { describe, it, before, beforeEach, afterEach } = require('mocha');
 const { expect } = require('chai');
 const { createSandbox } = require('sinon');
 const Todo = require('../src/todo');
-
+ 
 describe('todo', () => {
   let sandbox;
   beforeEach(() => {
